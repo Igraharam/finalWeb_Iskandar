@@ -13,6 +13,12 @@ module.exports = {
         myLightBlue: '#8BBBDC',
         myGray: '#2D3D47',
         mydarkGray: '#1D272E',
+        
+        myBlackBlue:  '#003D57',
+        myMilkBlue: '#01AAF5',
+        myLikeBlue: '#00597F',
+        myLimeBlue:   '#0092D1',
+        mySharkBlue:  '#0076A8',
 
       },
       fontFamily: {

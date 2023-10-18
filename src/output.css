@@ -843,6 +843,16 @@ video {
   border-color: rgb(17 46 66 / var(--tw-border-opacity));
 }
 
+.border-myBlackBlue{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 61 87 / var(--tw-border-opacity));
+}
+
+.border-black{
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+}
+
 .bg-slate-100{
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -976,29 +986,29 @@ video {
   color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
-.text-myBrightBlue{
+.text-myBlackBlue{
   --tw-text-opacity: 1;
-  color: rgb(48 136 194 / var(--tw-text-opacity));
+  color: rgb(0 61 87 / var(--tw-text-opacity));
 }
 
-.text-myDarkBlue{
+.text-myLikeBlue{
   --tw-text-opacity: 1;
-  color: rgb(17 46 66 / var(--tw-text-opacity));
+  color: rgb(0 89 127 / var(--tw-text-opacity));
 }
 
-.text-myDeepBlue{
+.text-myLimeBlue{
   --tw-text-opacity: 1;
-  color: rgb(36 100 143 / var(--tw-text-opacity));
+  color: rgb(0 146 209 / var(--tw-text-opacity));
 }
 
-.text-myGray{
+.text-myMilkBlue{
   --tw-text-opacity: 1;
-  color: rgb(45 61 71 / var(--tw-text-opacity));
+  color: rgb(1 170 245 / var(--tw-text-opacity));
 }
 
-.text-myLightBlue{
+.text-mySharkBlue{
   --tw-text-opacity: 1;
-  color: rgb(139 187 220 / var(--tw-text-opacity));
+  color: rgb(0 118 168 / var(--tw-text-opacity));
 }
 
 .text-mydarkGray{

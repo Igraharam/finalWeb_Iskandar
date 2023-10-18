@@ -1,0 +1,15 @@
+.logo{
+    background-color: #003D57;
+    width: 100%;
+    height: 80%;
+}
+.menu{
+    position: relative;
+    top: -50px;
+    left: 750px;
+    color: white;
+    border: 1px solid black;
+    width: 20%;
+    height: 50px;
+    padding: 15px;
+}
