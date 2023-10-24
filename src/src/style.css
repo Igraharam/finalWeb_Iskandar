@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    position: relative;
+    top: -25px;
+    right: 65px;
+    background-color: #003D57;
+    width: 1355px;
+    height: 80px;
+}
+.custon-btn{
+    position: absolute;
+    top: 50%;
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1) 4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.btn-1{
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border-radius: 17px;
+}
+.btn-1:hover{
+    background: rgba(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+
+}
+.rich{
+    position: relative;
+    left: 110px;
+    top: -560px;
+}
+.p2{
+    color: black;
+    width: 40%;
+    position: relative;
+    top: -570px;
+    left: 125px;
+}
+.tel{
+    position: relative;
+    top: -69px;
+    left: 720px;
+    border: 1px solid black;
+    color: white;
+}
+.menu{
+    position: relative;
+    top: -67px;
+    left: 600px;
+    color: white;
+    border: 1px solid white;
+    width: 9%;
+    height: 57px;
+    padding: 15px;
+}
+.p{
+    position: relative;
+    top: -545px;
+    right: 145px;
+}
+.ad{
+    width: 50%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.foto{
+    border: 2px solid #0076A8;
+    position: relative;
+    left: 860px;
+    top: -1020px;
+    border-radius: 15px;
+}
+.p1{
+    color: gray;
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+.h1{
+    width: 40%;
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.opis{
+    position: relative;
+    top: 550px;
+    right: 30px;
+    width: 70%;
+}
+.opis2{
+    position: relative;
+    top: 570px;
+    right: 30px;
+    color: gray;
+    width: 75%;
+ 
+}
+.foto2{
+    position: relative;
+    top: 480px;
+    right: 520px;
+    border-radius: 10px;
+    width: 350px;
+    height: 370px;
+    border: 3px solid khaki;
+  
+}
+.foto3{
+    position: relative;
+    top: 300px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid black;
+  
+}

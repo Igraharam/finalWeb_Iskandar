@@ -1,0 +1,103 @@
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
+
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber shop 2022 god</title>
+  <link href="/src/output.css" rel="stylesheet">
+  <link href="/src/animation.css" rel="stylesheet">
+  <link href="/src/styles.css" rel="stylesheet">
+  <link href="/src/style.css" rel="stylesheet">
+</head>
+
+<body class="bg-slate-100">
+  <!-- 
+  <h1 class="text-3xl text-myBlackBlue font-bold underline">myBlackBlue</h1>
+  <h1 class="text-3xl text-myMilkBlue font-bold underline">myMilkBlue</h1>
+  <h1 class="text-3xl text-myLikeBlue font-bold underline">myLikeBlue </h1>
+  <h1 class="text-3xl text-myLimeBlue font-bold underline">myLimeBlue</h1>
+  <h1 class="text-3xl text-mySharkBlue font-bold underline">mySharkBlue</h1> -->
+
+
+  <div class="relative container mx-auto p-6">
+  <header class="logo" class="flex justify-betwee">
+    <!-- border-2 border-solid // border-dashed // border-dotted // border-double  -->
+    <!-- border-2 animation.css-solid // border-dashed // border-dotted // border-double  -->
+
+    <!-- logo  -->
+    <img src="img/barber.jpg" alt="" width="80" height="80"> 	
+    <nav class="flex flex-col md:flex-row">
+      <a href="#" class="menu">Тренд</a>
+      <a href="#" class="menu">Причоска</a>
+      <a href="#" class="menu">Бонусы</a>
+      <a href="#" class="menu">Бороды</a>
+
+      <div class="tel" class="btn-around">
+        <button class="px-2 py-4 border">Связь с нами</button>
+      </div>
+    </nav>
+  </header>
+  </div>
+
+  <!-- hero  -->
+  <section id="hero" class="grid grid-cols-1 md:grid-cols-2">
+    <!-- border-solid border-2  -->
+    <div class="flex flex-col justify-between">
+      <div>
+        <p class="p1" style="font-size: 1.5rem;"> Все секркты BARBER SHOPA </p>
+        <h1 class="h1" style="font-size: 2rem;">BARBER SHOP Man peluduero.</h1>
+        <button style="font-size: 2.1rem" class="custom-btn btn-1">Записатся</button>
+        <p class="ad" style="font-size: 1.5rem;">Индевидуальный подход к каждому клиенту ❤️</p>
+      </div>
+      <div>
+        <div class="flex items-center">
+          <!-- аватарка  -->
+          <img class="rich" src="img/avatar-richard.png" alt="" width="70">
+          <p class="p2" style="font-size: 1.5rem"> Richard Watts</p>
+          <p class="p" style="font-size: 1.1rem"> CEO admin</p>
+        </div>
+      </div>
+    </div>
+    <!-- ключевая картинка справа  -->
+    <div class="final2">
+      <h1 style="font-size: 2rem;" class="opis">Работы нашех мастеров, и видеообучения ненишных работ.</h1>
+      <p style="font-size: 1.1rem;" class="opis2">В нашем BARBER SHOPE вы можете заказат  любую причоски, стрижку и даже подстригивание бород. Наши мастера будут исполнять любой ван каприз. Не важно дети, мужчины или даже сарики, мы не боимся проблет, мы стораемся их убирать! Мы доставим вас до вашего мероприятия на нашем barber мобиле.</p>
+      <img class="foto2" src="img/prichos1.jpg" alt="" width="100">
+      <img class="foto3" src="img/605d1dfd.jpg" alt="" width="100">
+    </div>
+  </section>
+  <!-- hero end -->
+
+  <!-- feature -->
+  <section id="feature">
+    <!-- секция с картинкой и текстом   -->
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <div id="left-part">
+        <!-- слева фото  -->
+        <img class="foto" src="img/prichos3.jpg" alt="" width="460"/>
+      </div>
+      <!-- <div id="right-part">
+        <p>Тут описание картинкию Картинка с лева описание с права</p>
+      </> -->
+    </div>
+    <!-- секция видео  -->
+    <div class="grid grid-cols-1 md:grid-cols-2">
+      <!-- <div id="opisanie">
+        <p>Тутdiv описание. Описание с лева видео с права</p>
+      </div> -->
+       <div id="video-container">
+        <video id="my-video" src="./video-29-5-_vEWjIatXoA.mp4" poster="img/avatar-richard.png"></video>
+        <button id="play-button"></button> 
+    </div>
+    </div>
+  </section>
+
+  <script src="./scriptvideo.js"></script>
+
+</body>
+</html>
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->       
