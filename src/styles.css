@@ -2,10 +2,25 @@
 #video-container{
     position: relative;
 }
+#video-container2{
+    position: relative;
+}
 #play-button{
     position: absolute;
-    top: 50%;
-    left: 50%;
+    left: 462px;
+    top: 70px;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+    background-image: url("./play-button.png");
+    background-size: contain;
+    border: none;
+    cursor: pointer;
+}
+#play-button2{
+    position: absolute;
+    left: 960px;
+    top: 70px;
     transform: translate(-50%, -50%);
     width: 64px;
     height: 64px;

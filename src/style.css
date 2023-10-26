@@ -1,15 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .logo{
+    position: relative;
+    top: -25px;
+    right: 65px;
     background-color: #003D57;
-    width: 100%;
-    height: 80%;
+    width: 1355px;
+    height: 80px;
+}
+.custon-btn{
+    position: absolute;
+    top: 50%;
+    border: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-block;
+    box-shadow: inset 2px 2px 2px 0px rgba(255,255,255,.5), 7px 7px 20px 0px rgba(0,0,0,.1) 4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+}
+.btn-1{
+    background: rgb(6,14,131);
+    background: linear-gradient(0deg, rgba(6,14,131,1) 0%, rgba(12,25,180,1) 100%);
+    border: none;
+    position: relative;
+    left: 100px;
+    top: 20px;
+    border-radius: 17px;
+}
+.btn-1:hover{
+    background: rgba(0,3,255);
+    background: linear-gradient(0deg, rgba(0,3,255,1) 0%, rgba(2,126,251,1) 100%);
+
+}
+.rich{
+    position: relative;
+    left: 110px;
+    top: -480px;
+}
+.p2{
+    color: black;
+    width: 40%;
+    position: relative;
+    top: -490px;
+    left: 125px;
+}
+.tel{
+    position: relative;
+    top: -69px;
+    left: 720px;
+    border: 1px solid black;
+    color: white;
 }
 .menu{
     position: relative;
-    top: -50px;
-    left: 750px;
+    top: -67px;
+    left: 600px;
     color: white;
-    border: 1px solid black;
-    width: 20%;
-    height: 50px;
+    border: 1px solid white;
+    width: 9%;
+    height: 57px;
     padding: 15px;
+}
+.p{
+    position: relative;
+    top: -465px;
+    right: 145px;
+}
+.ad{
+    width: 50%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.video{
+    position: relative;
+    top: -100px;
+    left: 160px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+.img1{
+    border-radius: 2px;
+    border: 2px solid black;
+    position: relative;
+    left: 90px;
+    top: 3px;
+}
+.img2{
+    border-radius: 2px;
+    border: 2px solid black;
+    position: relative;
+    left: 490px;
+    top: -354px;
+}
+.log{
+    position: relative;
+    top: 40px;
+    left: 199px;
+}
+.go{
+    border: 1px solid aqua;
+    background-color: aqua;
+    border-radius: 30px;
+}
+.tri{
+    position: relative;
+    top: -60px;
+}
+.foot{
+    background-color: #0076A8;
+}
+.ok{
+    width: 20%;
+    border-radius: 5px;
+    position: relative;
+    top: -715px;
+    left: 91px;
+    color: #0076A8;
+    border: 2px solid #003D57;
+    background-color:   black;
+}.oc{
+    color: #0076A8;
+    border: 2px solid #003D57;
+    background-color:   black;
+    width: 20%;
+    border-radius: 5px;
+    position: relative;
+}
+.ob{
+    color: #0076A8;
+    border: 2px solid #003D57;
+    background-color:   black;
+    width: 20%;
+    border-radius: 5px;
+    position: relative;
+}
+.border-b{
+    border-bottom-width: 1px;
+  }
+.graf1{
+    position: relative;
+    top: -850px;
+    left: 400px;
+}  
+.graf{
+    width: 60%;
+    position: relative;
+    top: -850px;
+    left: 300px;
+    color: gray;
+}
+.graf2{
+    position: relative;
+    top: -845px;
+    right: 420px;
+}
+.img3{
+    border-radius: 2px;
+    border: 2px solid black;
+    position: relative;
+    left: 890px;
+    top: -710px;
+}
+.video2{
+    position: relative;
+    top: -100px;
+    left: 650px;
+    border: 3px solid black;
+    border-radius: 15px;
+}
+
+body{
+    background-color: azure;
+}
+.opis3{
+    position: relative;
+    left: 835px;
+    top: -350px;
+    width: 55%;
+}
+.opis4{
+    position: relative;
+    left: 835px;
+    top: -340px;
+    width: 55%;
+    color: gray;
+}
+.opis5{
+    width: 40%;
+    position: relative;
+    top: -430px;
+    left: 50px;
+}
+.opis6{
+    width: 30%;
+    color: gray;
+    position: relative;
+    left: 50px;
+    top: -400px;
+}
+.ck{
+    position: relative;
+    top: -310px;
+    left: 840px;
+    color: #0076A8;
+}
+.ck2{
+    color: #0076A8;
+    position: relative;
+    top: -350px;
+    left: 50px;
+}
+.sk{
+    position: relative;
+    top: -1000px;
+}
+.foto{
+    border: 2px solid #0076A8;
+    position: relative;
+    left: 860px;
+    top: -940px;
+    border-radius: 15px;
+}
+.p1{
+    color: gray;
+    position: relative;
+    left: 100px;
+    top: -20px;
+}
+.h1{
+    width: 40%;
+    position: relative;
+    top: 1px;
+    left: 100px;
+}
+.opis{
+    position: relative;
+    top: 550px;
+    right: 30px;
+    width: 70%;
+}
+.opis2{
+    position: relative;
+    top: 570px;
+    right: 30px;
+    color: gray;
+    width: 75%;
+ 
+}
+.foto2{
+    position: relative;
+    top: 480px;
+    right: 520px;
+    border-radius: 10px;
+    width: 350px;
+    height: 370px;
+    border: 3px solid khaki;
+  
+}
+.foto3{
+    position: relative;
+    top: 300px;
+    width: 500px;
+    border-radius: 15px;
+    border: 2px solid black;
+  
+}
+.clak{
+    width: 80%;
+    padding: 30px;
 }

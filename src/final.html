@@ -6,14 +6,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Barber shop 2022 god</title>
   <link href="/src/output.css" rel="stylesheet">
   <link href="/src/animation.css" rel="stylesheet">
   <link href="/src/styles.css" rel="stylesheet">
   <link href="/src/style.css" rel="stylesheet">
 </head>
 
-<body class="bg-slate-100">
-  <!-- 
+<!-- 
   <h1 class="text-3xl text-myBlackBlue font-bold underline">myBlackBlue</h1>
   <h1 class="text-3xl text-myMilkBlue font-bold underline">myMilkBlue</h1>
   <h1 class="text-3xl text-myLikeBlue font-bold underline">myLikeBlue </h1>
@@ -21,79 +21,199 @@
   <h1 class="text-3xl text-mySharkBlue font-bold underline">mySharkBlue</h1> -->
 
 
-  <div class="relative container mx-auto p-6">
-  <header class="flex justify-between border-2 border-myDarkBlue border-solid">
+<div class="relative container mx-auto p-6">
+  <header class="logo" class="flex justify-betwee">
     <!-- border-2 border-solid // border-dashed // border-dotted // border-double  -->
     <!-- border-2 animation.css-solid // border-dashed // border-dotted // border-double  -->
 
     <!-- logo  -->
-    <img src="img/barber.jpg" alt="" width="80" height="80"> 	
+    <img src="img/barber.jpg" alt="" width="80" height="80">
     <nav class="flex flex-col md:flex-row">
-      <a href="#" class="menu">Новости</a>
-      <a href="#" class="menu">Одежда</a>
-      <a href="#" class="menu">Обувь</a>
-      <a href="#" class="menu">Аксесуары</a>
-      <a href="#" class="menu">Подарки</a>
+      <a href="#" class="menu">Тренд</a>
+      <a href="#" class="menu">Причоска</a>
+      <a href="#" class="menu">Бонусы</a>
+      <a href="#" class="menu">Бороды</a>
 
-      <div class="btn-around">
+      <div class="tel" class="btn-around">
         <button class="px-2 py-4 border">Связь с нами</button>
       </div>
     </nav>
   </header>
+</div>
+
+<!-- hero  -->
+<section id="hero" class="grid grid-cols-1 md:grid-cols-2">
+  <!-- border-solid border-2  -->
+  <div class="flex flex-col justify-between">
+    <div>
+      <p class="p1" style="font-size: 1.5rem;"> BARBER SHOPA 2022 god </p>
+      <h1 class="h1" style="font-size: 2rem;">BARBER SHOP Man peludueros.</h1>
+      <button style="font-size: 2.2rem" class="custom-btn btn-1 h-16 w-52">Записаться</button>
+      <p class="ad" style="font-size: 1.5rem;">Индевидуальный подход к каждому клиенту ❤️</p>
+    </div>
+    <div>
+      <div class="flex items-center">
+        <!-- аватарка  -->
+        <img class="rich" src="img/avatar-richard.png" alt="" width="70">
+        <p class="p2" style="font-size: 1.5rem"> Richard Watts</p>
+        <p class="p" style="font-size: 1.1rem"> CEO admin</p>
+      </div>
+    </div>
+  </div>
+  <!-- ключевая картинка справа  -->
+  <div class="final2">
+    <h1 style="font-size: 2rem;" class="opis">Работы нашех мастеров, и видеообучения ненишных работ.</h1>
+    <p style="font-size: 1.1rem;" class="opis2">В нашем BARBER SHOPE вы можете заказат любую причоски, стрижку и даже
+      подстригивание бород. Наши мастера будут исполнять любой ваш каприз. Не важно дети, мужчины или даже сарики, мы не
+      боимся проблет, мы стораемся их убирать! Мы доставим вас до вашего мероприятия на нашем barber мобиле.</p>
+    <img class="foto2" src="img/prichos1.jpg" alt="" width="100">
+    <img class="foto3" src="img/605d1dfd.jpg" alt="" width="100">
+  </div>
+</section>
+<!-- hero end -->
+
+<!-- feature -->
+<section id="feature" class="bg-blue-200">
+  <!-- секция с картинкой и текстом   -->
+  <div class="grid grid-cols-1 md:grid-cols-2">
+    <div id="left-part">
+      <!-- слева фото  -->
+      <img class="foto" src="img/prichos3.jpg" alt="" width="460" />
+    </div>
+    <!-- <div id="right-part">
+        <p>Тут описание картинкию Картинка с лева описание с права</p>
+      </> -->
+  </div>
+  <!-- секция видео  -->
+  <div class="grid grid-cols-1 md:grid-cols-2">
+    <!-- <div id="opisanie">
+        <p>Тутdiv описание. Описание с лева видео с права</p>
+      </div> -->
+    <div id="video-container">
+      <video class="video" id="my-video" src="./video-29-5-_vEWjIatXoA.mp4" poster="img/fool2.png" width="600"></video>
+      <button id="play-button"></button>
+      <p style="font-size: 1.5rem;" class="opis3">Видео уроки от наших мастеров специально для вас!</p>
+      <p style="font-size: 1rem;" class="opis4">Вы можете научиться и посмотреть на работы нашех мастеров и их видео
+        работ. Сделано спицеально для вас! копии нету!</p>
+      <button class="ck">Перейти на official сайт.</button>
+    </div>
   </div>
 
-  <!-- hero  -->
-  <section id="hero" class="grid grid-cols-1 md:grid-cols-2">
-    <!-- border-solid border-2  -->
-    <div class="flex flex-col justify-between">
-      <div>
-        <p> мы приехали в среднюю Азию и поработали над тем, чтобы Вы могли </p>
-        <h1>Дикий и безопасный Таджикистан</h1>
-        <button>Knopka</button>
+  <div id="video-container2">
+    <video class="video2" id="my-video2" src="./video-29-5-_vEWjIatXoA.mp4" poster="img/fool.png" width="600"></video>
+    <button id="play-button2"></button>
+    <p style="font-size: 1.5rem;" class="opis5"> Второй видео урок от наших мастеров специально для вас. Нужен модель!
+    </p>
+    <p style="font-size: 1rem;" class="opis6"> Вы можете научиться и посмотреть на работы нашех мастеров их их видео
+      работ. Сделано спицеально для вас! Здесь и сейчас! </p>
+    <button class="ck2">Перейти на official сайт.</button>
+  </div>
+</section>
+
+<section id="cta" class="flex justify-between bg-blue-500 pt-6 mt-10 mb-10">
+  <div class="clak" class="w-2/3">
+    <h3 class="text-4xl">Стригись у нас, и будь самым модным!</h3>
+    <p style="font-size: 1.1rem;" class="text-gray-800">
+         Первая стрижка совершенна бесплатно! Нажмите чтобы записатся.
+    </p>
+  </div>
+  <div class="w-1/3">
+    <button type="button" class="text-2xl my-12 border-y-4 border-x-4 bg-cyan-400 h-14 w-40">Записатся</button>
+  </div>
+</section>
+
+<!-- otzivi -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-2 mx-auto my-20 ">
+  <!-- <div class="flex justify-between mx-auto my-auto px-10 py-10"> -->
+  <div class=" ">
+    <img class="" src="img/20230805_192314.jpg" width="270">
+    <p style="font-size: 1.3rem;" class="">Очень крутой барбер шоп, стал постоянным клиентом! мой мастер Сергей
+      Львович. Благодорю вас Сергей!</p>
+  </div>
+  <div class="">
+    <img class="" src="img/20230805_185744.jpg" width="270">
+    <p style="font-size: 1.3rem;" class="">Очень крутой барбер шоп, стал постоянным клиентом! мой мастер Алексей
+  </div>
+  <div class="">
+    <img class="" src="img/20230805_192336.jpg" width="270">
+    Жарко. Благодорю вас Алексей!</p>
+    <p style="font-size: 1.3rem;" class="">Очень крутой барбер шоп, стал постоянным клиентом! мой мастер Николай
+      Петров. Благодорю вас Николай!</p>
+  </div>
+</div>
+
+
+
+
+<footer class="foot">
+  <!-- Flex Container -->
+  <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+    <!-- Logo and social links container -->
+    <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+      <div class="mx-auto my-6 text-center text-black md:hidden">
+        Copyright &copy; 2022, All Rights Reserved
       </div>
-      <div>
-        <p> Lorem ipsum dolor sit amet consectetur.</p>
-        <div class="flex items-center">
-          <!-- аватарка  -->
-          <img src="" alt="">
-          <p> Lorem ipsum dolor sit.</p>
+      <!-- Social Links Container -->
+      <div class="flex justify-center space-x-4">
+        <!-- Link 1 -->
+        <div class="log">
+          <img src="img/logo-super.png" width="130">
         </div>
+        <a href="#">
+          <img src="img/icon-facebook.svg" alt="" class="h-8" />
+        </a>
+        <!-- Link 2 -->
+        <a href="#">
+          <img src="img/icon-youtube.svg" alt="" class="h-8" />
+        </a>
+        <!-- Link 3 -->
+        <a href="#">
+          <img src="img/icon-twitter.svg" alt="" class="h-8" />
+        </a>
+        <!-- Link 4 -->
+        <a href="#">
+          <img src="img/icon-pinterest.svg" alt="" class="h-8" />
+        </a>
+        <!-- Link 5 -->
+        <a href="#">
+          <img src="img/icon-instagram.svg" alt="" class="h-8" />
+        </a>
       </div>
     </div>
-    <!-- ключевая картинка справа  -->
-    <div>
-      <img src="" alt="">
-    </div>
-  </section>
-  <!-- hero end -->
-
-  <!-- feature -->
-  <section id="feature">
-    <!-- секция с картинкой и текстом   -->
-    <div class="grid grid-cols-1 md:grid-cols-2">
-      <div id="left-part">
-        <!-- слева фото  -->
-        <img src="#" alt="" />
+    <!-- List Container -->
+    <div class="flex justify-around space-x-32">
+      <div class="flex flex-col space-y-3 text-black">
+        <a href="#" class="hover:text-brightRed">Home</a>
+        <a href="#" class="hover:text-brightRed">Pricing</a>
+        <a href="#" class="hover:text-brightRed">Products</a>
+        <a href="#" class="hover:text-brightRed">About</a>
       </div>
-      <div id="right-part">
-        <p>Тут описание картинкию Картинка с лева описание с права</p>
+      <div class="flex flex-col space-y-3 text-black">
+        <a href="#" class="hover:text-brightRed">Careers</a>
+        <a href="#" class="hover:text-brightRed">Community</a>
+        <a href="#" class="hover:text-brightRed">Privacy Policy</a>
       </div>
     </div>
-    <!-- секция видео  -->
-    <div class="grid grid-cols-1 md:grid-cols-2">
-      <div id="opisanie">
-        <p>Тут описание. Описание с лева видео с права</p>
+
+    <!-- Input Container -->
+    <div class="flex flex-col justify-between">
+      <form>
+        <div class="flex space-x-3">
+          <input type="text" class="flex-1 px-4 rounded-full focus:outline-none" placeholder="Updated in your inbox" />
+          <button class="go"
+            class="px-6 py-2 text-black rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none">
+            Go
+          </button>
+        </div>
+      </form>
+      <div class="hidden text-black md:block">
+        Copyright &copy; 2022, All Rights Reserved
       </div>
-      <!-- <div id="video-container">
-        <video id="my-video" src="./video-29-5-_vEWjIatXoA.mp4"></video>
-        <button id="play-button"></button> -->
     </div>
-    </div>
-  </section>
+  </div>
+</footer>
 
-
-  <script src="./scriptvideo.js"></script>
-
+<script src="./scriptvideo.js"></script>
 </body>
 
 </html>
